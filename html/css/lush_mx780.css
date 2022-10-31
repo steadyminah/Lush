@@ -1,0 +1,154 @@
+/*lush_mx780.css*/
+div.mnWrap{
+    height: 540px;
+}
+div.mnWrap .title{
+    width: 780px;
+}
+div.mnWrap .title main{
+    width: 60%; height: 150px;
+}
+
+div.hdrWrap{
+    max-width: 780px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+div.hdrWrap header .image{
+    background-size: 100%;
+    width: 80px; height: 22px;
+}
+div.hdrWrap header nav h2{
+    margin: 0 10px;
+    width: auto;
+    font-size: 14px;
+}
+div.hdrWrap header menu i{
+    margin: 0 10px;
+}
+
+div.content{
+    padding-top: 120px;
+}
+
+
+div.ct1 header nav h4{
+    margin: 0 40px;
+}
+div.ct1 section{
+    padding: 0 30px;
+}
+div.ct1 section article{
+    width: calc(25% - 20px);
+}
+div.ct1 section article:nth-of-type(1),
+div.ct1 section article:nth-of-type(6){
+    display: none;
+}
+div.ct1 section article .image{
+    height: 160px;
+}
+div.ct1 section article .texts{
+    margin-top: 10px;
+}
+div.ct1 .bar figure{
+    width: 80%;
+}
+
+
+div.banner{
+    padding-top: 160px;
+}
+div.banner .image{
+    height: 500px;
+}
+div.banner .image section .texts{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+div.mnArt{
+    display: block;
+}
+div.mnArt article{
+    width: 100%;
+    margin-top: 40px;
+}
+div.mnArt article:nth-of-type(1){
+    margin-top: -40px;
+}
+
+
+div.ct2{
+    width: 85%;
+}
+div.ct2 .texts{
+    width: 100%;
+    margin: 0 auto;
+}
+div.ct2 .texts .sub{
+    margin-top: 60px;
+}
+div.ct2 .texts .underline{
+    background-size: 85%;
+    top: 340px; left: -10px;
+}
+div.ct2 .texts ul li span{
+    font-size: 24px;
+}
+div.ct2 section{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+div.ct2 section article{
+    width: calc(100% / 3 - 20px);
+}
+
+
+div.particle{
+    display: none;
+}
+
+div.ftrBanner section{
+    margin-top: 160px;
+    height: 60px;
+}
+div.ftrBanner section h3{
+    margin-right: 20px;
+    font-size: 14px; line-height: 20px;
+}
+div.ftrBanner section input{
+    display: none;
+}
+div.ftrBanner section .btn button{
+    height: 40px;
+}
+
+div.ftrWrap{
+    padding: 60px 0;
+}
+div.ftrWrap footer{}
+div.ftrWrap footer .logo{}
+div.ftrWrap footer nav{
+    display: none;
+}
+div.ftrWrap section ul{
+    width: calc(100% - 20px);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: -20px;
+}
+div.ftrWrap section ul li{
+    font-size: 14px;
+}
+div.ftrWrap section ul li:nth-of-type(3){
+    margin-top: 0;
+}
+div.ftrWrap section p{
+    display: none;
+}

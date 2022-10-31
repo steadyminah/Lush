@@ -1,0 +1,38 @@
+/*sub4_mx420.css*/
+div.hdrWrap header nav{
+    display: none;
+}
+
+.content.ct1 header ul li{
+    margin: 0 5px; font-size: 14px;
+}
+
+
+.content.ct1 section article .image{
+    height: 180px;
+}
+.content.ct1 section article .texts{
+    padding: 20px;
+}
+.content.ct1 section article .texts h4{
+    font-size: 14px;
+}
+.content.ct1 section article .texts h6{
+    display: none;
+}
+
+
+div.ftrWrap{
+    padding: 40px 0;
+    margin-top: 120px;
+}
+div.ftrWrap header .logo{
+    background-size: 90%;
+    background-position: center;
+}
+div.ftrWrap footer{
+    margin: 0;
+}
+div.ftrWrap footer ul{
+    display: none;
+}

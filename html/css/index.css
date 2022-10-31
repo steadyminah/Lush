@@ -1,0 +1,335 @@
+/*index.css*/
+div.mnWrap{
+    overflow: hidden;
+    background-image: url(../img/mainwave.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    position: relative;
+}
+div.mnWrap video{
+    z-index: -1;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    margin: auto;
+    top: 0; bottom: 0; left: 0; right: 0;
+}
+div.mnWrap .title{
+    width: 100%;
+}
+div.mnWrap .title main{
+    background-image: url(../img/maintitle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    width: 70%; height: 300px; margin: 0 auto;
+}
+
+div.mnWrap menu{
+    position: absolute;
+    bottom: 15%;
+}
+div.mnWrap menu i{
+    color: #fff; font-size: 18px;
+}
+
+
+div.ct1{
+    width: 100%; max-width: none; margin: 0 auto;
+    padding-top: 180px;
+}
+div.ct1 header{
+    text-align: center;
+}
+div.ct1 header h1{
+    font-family: "parkway lush";
+    font-size: 108px; line-height: 80px; letter-spacing: -6px;
+}
+div.ct1 header nav{
+    display: flex;
+    justify-content: center;
+}
+div.ct1 header nav h4{
+    line-height: 40px; margin: 0 60px; font-size: 16px; text-transform: uppercase;
+    padding: 20px 0;
+}
+div.ct1 section{
+    padding: 0 70px;
+    width: 100%; max-width: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.ct1 section article{
+    width: calc(100% / 6 - 20px);   
+}
+div.ct1 section article:nth-of-type(1),
+div.ct1 section article:nth-of-type(6){
+    opacity: 40%;
+}
+div.ct1 section article .image{
+    height: 280px; background-color: #FFF;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+div.ct1 section article .i1{background-image: url(../img/index_best_01.jpg);}
+div.ct1 section article .i2{background-image: url(../img/index_best_02.jpg);}
+div.ct1 section article .i3{background-image: url(../img/index_best_03.jpg);}
+div.ct1 section article .i4{background-image: url(../img/index_best_04.jpg);}
+div.ct1 section article .i5{background-image: url(../img/index_best_05.jpg);}
+div.ct1 section article .i6{background-image: url(../img/index_best_06.jpg);}
+div.ct1 section article .texts{
+    text-align: center;
+    margin-top: 20px;
+}
+div.ct1 section article:nth-of-type(1) .texts,
+div.ct1 section article:nth-of-type(6) .texts{
+    display: none;
+}
+div.ct1 section article .texts h3{
+    font-size: 18px; font-weight: 500;
+}
+div.ct1 section article .texts h5{
+    color: #999;
+}
+div.ct1 .bar{
+    padding-top: 60px;   
+}
+div.ct1 .bar figure{
+    width: 65%; margin: 0 auto; height: 4px;
+    background-color: #e1e1e1;
+    border-radius: 10px;
+    overflow: hidden;
+}
+div.ct1 .bar figure .follow{
+    background-color: #000; width: 25%; height: 4px;
+}
+
+div.banner{}
+div.banner .image{
+    height: 560px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+div.banner .image section{}
+div.banner .image .texts{
+    color: #fff;
+    width: 50%;
+    margin-left: auto;
+    padding-top: 80px;
+}
+div.banner .texts h4{
+    font-size: 16px; text-transform: uppercase; line-height: 80px; letter-spacing: 2px;
+}
+div.banner .texts h2{
+    font-family: "parkway lush";
+    font-size: 108px; line-height: 60px; letter-spacing: -6px;
+}
+div.banner .texts h3{
+    font-size: 18px; font-weight: 700; line-height: 40px;
+    margin-top: 40px;
+}
+div.banner .texts p{
+    height: 40px;
+}
+div.banner .texts button{
+    margin-top: 60px;
+}
+
+div.mnArt{
+    width: 90%; max-width: 1200px; margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+div.mnArt article{
+    width: calc(100% / 3 - 20px);
+    margin-top: -40px;
+    
+    position: relative;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+div.mnArt article:hover{
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.4);
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.05);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.05);
+    transition: all 200ms ease-in;
+    transform: scale(1.05);
+}
+
+div.mnArt article .image{
+    height: 400px;
+    background-color: rgba(0,0,0,0.1);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+}
+div.mnArt article .image:hover{
+    background-color: rgba(0,0,0,0.4);
+}
+div.mnArt article .i1{background-image: url(../img/index_art_01.jpg); }
+div.mnArt article .i2{background-image: url(../img/index_art_02.jpg);}
+div.mnArt article .i3{background-image: url(../img/index_art_03.jpg);}
+
+div.mnArt article .texts{
+    width: 100%; height: 100%;
+    padding: 40px; color: #fff; line-height: 40px;
+    position: absolute; bottom: 0; left: 0;
+}
+div.mnArt article .texts h4{
+    font-size: 16px; text-transform: uppercase; letter-spacing: 2px;
+}
+div.mnArt article .texts h3{
+    font-size: 24px; font-weight: 500;
+}
+div.mnArt article .texts button{
+    margin-top: 200px;
+}
+
+div.ct2{}
+div.ct2 header{}
+div.ct2 .hgroup{
+    width: 70%;
+}
+div.ct2 .hgroup{
+    margin: 0 10px;
+    width: 70%; text-align: justify; letter-spacing: -1px;
+    position: relative;
+}
+div.ct2 .hgroup h2{
+    font-family: "parkway lush";
+    font-size: 108px; line-height: 80px; letter-spacing: -6px;
+}
+div.ct2 .hgroup h3{
+    font-size: 30px; font-weight: 700; line-height: 80px;
+    margin-top: 40px; border: 0;
+}
+div.ct2 .hgroup p{
+    height: 40px; font-size: 18px; line-height: 30px;
+}
+div.ct2 .hgroup .underline{
+    background-image: url(../img/index_particle_03.png);
+    background-repeat: no-repeat;
+    width: 60%; height: 46px;
+    position: absolute;
+    top: 320px; left: -40px;
+    z-index: -1;
+}
+div.ct2 .hgroup .sub{
+    font-family: "parkway lush";
+    font-size: 72px; line-height: 80px; letter-spacing: -6px;
+}
+div.ct2 .hgroup ul{
+    margin-top: 40px;
+}
+div.ct2 .hgroup ul li{
+    font-size: 18px; 
+}
+div.ct2 .hgroup ul span{
+    font-family: "parkway lush"; font-size: 36px;
+}
+div.ct2 section{}
+div.ct2 section .artGroup{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 80px;
+    margin: 0 10px;
+}
+div.ct2 section article{
+    width: calc(100% / 3 - 60px);
+}
+div.ct2 section article .image{
+    height: 230px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 96%;
+}
+div.ct2 section article:nth-of-type(3)~*{
+    margin-top: 20px;
+}
+div.ct2 section article .i1{background-image: url(../img/index_image_01.jpg);}
+div.ct2 section article .i2{background-image: url(../img/index_image_02.jpg);}
+div.ct2 section article .i3{background-image: url(../img/index_image_03.jpg);}
+div.ct2 section article .i4{background-image: url(../img/index_image_04.jpg);}
+div.ct2 section article .i5{background-image: url(../img/index_image_05.jpg);}
+div.ct2 section article .i6{background-image: url(../img/index_image_06.jpg);}
+
+div.ct2 section article .texts{
+    width: 100%; margin: 0;
+    text-align: center;
+}
+div.ct2 section article .texts h5{
+    line-height: 40px;
+}
+
+div.particle{}
+div.particle .i1 img{
+    width: 20%;
+    position: absolute; top: 2750px;
+    z-index: -2;
+}
+div.particle .i2 img{
+    width: 30%;
+    position: absolute; top: 2900px; right: 0;
+    z-index: -2;
+}
+div.particle .i4 img{
+    width: 20%; opacity: 50%;
+    position: absolute; top: 2850px; right: 200px;
+    z-index: -1;
+}
+
+div.ftrBanner{
+    background-color: #ebebeb;
+    background-blend-mode: multiply;
+}
+div.ftrBanner section{
+    width: 90%; max-width: 1200px; margin: 0 auto;
+}
+div.ftrBanner section article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+div.ftrBanner section article h3{
+    line-height: 40px; font-size: 18px;
+}
+div.ftrBanner section article input{
+    width: 20%; height: 40px; background-color: #fff;
+    margin-left: 24px;
+    border: 1px solid #000;
+    padding-left: 10px;
+}
+div.ftrBanner section article .btn{}
+div.ftrBanner section article .btn button{
+    height: 40px; background-color: #000;
+    text-decoration: none; letter-spacing: normal;
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+div.ftrWrap{
+    margin-top: 0px;
+}
