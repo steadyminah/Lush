@@ -1,0 +1,106 @@
+/*lush_mx780.css*/
+div.mnWrap{
+    height: 540px;
+}
+
+div.hdrWrap{
+    padding: 10px 0;
+}
+div.hdrWrap header h1{
+    background-size: 90%;
+    background-position: center;
+}
+div.hdrWrap header nav h2{
+    padding: 0 10px;
+}
+div.hdrWrap header menu i{
+    margin: 0 15px;
+}
+
+div.content{
+    padding-top: 120px;
+}
+
+
+div.ct1 header h1{
+    font-size: 84px;
+}
+div.ct1 header nav h4{
+    margin: 0 40px; padding: 10px 0;
+}
+div.ct1 section{
+    padding: 0 30px;
+}
+div.ct1 section article .image{
+    height: 160px;
+}
+
+
+div.banner .image section .texts h2{
+    font-size: 84px;
+}
+
+
+div.ct2{
+    padding: 160px 0;
+}
+div.ct2 .hgroup h2{
+    font-size: 84px;
+}
+div.ct2 .hgroup h3{
+    font-size: 24px; line-height: 40px; margin-top: 30px;
+}
+div.ct2 .hgroup p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+div.ct2 .hgroup .sub{
+    line-height: 100px;
+}
+div.ct2 header .hgroup .underline{
+    background-size: 100%;
+    top: 300px; left: -20px;
+}
+div.ct2 header .hgroup ul{
+    margin-top: 20px;
+}
+div.ct2 header .hgroup ul li{
+    font-size: 16px;
+}
+div.ct2 section{}
+div.ct2 section .artGroup{
+    padding-top: 60px;
+}
+div.ct2 section .artGroup article{
+    width: calc(100% / 3);
+}
+div.ct2 section .artGroup article .image{
+    height: 180px;
+}
+
+
+div.particle{
+    display: none;
+}
+div.ftrBanner section{
+    display: none;
+}
+
+
+div.ftrWrap{
+    padding: 60px 0;
+}
+div.ftrWrap footer{
+    margin-top: 20px;
+}
+div.ftrWrap footer ul{
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+}
+div.ftrWrap footer ul li:nth-of-type(3){
+    margin-top: 0;
+}
+div.ftrWrap footer p{
+    display: none;
+}

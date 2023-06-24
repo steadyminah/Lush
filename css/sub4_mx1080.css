@@ -1,0 +1,27 @@
+/*sub4_mx1080.css*/
+div.hdrImg{}
+div.hdrImg figure{
+    height: 420px;
+}
+div.hdrImg figure .texts{
+    padding-top: 120px;
+}
+
+
+.content.ct1 section article .image{
+    height: 250px;
+}
+.content.ct1 section article .texts{
+    padding: 25px;
+}
+
+
+div.ftrWrap{
+    padding: 60px 0;
+}
+div.ftrWrap header nav{
+    display: none;
+}
+div.ftrWrap footer{
+    font-size: 14px;
+}

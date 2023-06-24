@@ -1,0 +1,113 @@
+/*sub1_mx780.css*/
+div.hdrImg{}
+div.hdrImg figure{
+    height: 550px;
+    background-size: cover;
+}
+div.hdrImg figure .texts{
+    display: none;
+}
+
+div.hdrWrap{
+    padding: 0;
+}
+div.hdrWrap header h1{
+    background-size: 90%;
+    background-position: center;
+}
+div.hdrWrap header nav{}
+div.hdrWrap header nav h2{
+    padding: 0 10px;
+}
+div.hdrWrap header menu i{
+    margin: 0 15px;
+}
+
+
+div.ct1{}
+div.ct1 section{
+    display: block;
+}
+div.ct1 section .image{
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    height: 350px;
+    margin-top: -510px;
+    background-size: 50%;
+}
+div.ct1 .image::after{
+    display: none;
+}
+div.ct1 section .info{
+    width: calc(100% - 20px);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+div.youtube{}
+div.youtube section{}
+div.youtube section iframe{
+    width: 96%; height: 300px;
+}
+
+
+div.ct2{}
+div.ct2 section .ingredient{
+    font-size: 14px;
+}
+div.ct2 section:nth-of-type(1) article{
+    width: calc(50% - 20px);
+}
+div.ct2 section:nth-of-type(1) article .i3{
+    margin-top: 20px;
+}
+div.ct2 section:nth-of-type(1) article .i4{
+    margin-top: 20px;
+}
+div.ct2 section:nth-of-type(1) article:nth-of-type(3) .description,
+div.ct2 section:nth-of-type(1) article:nth-of-type(4) .description{
+    height: 200px; margin-top: 20px;
+}
+
+
+div.banner .texts h4{
+    line-height: 20px; margin-top: 20px;
+}
+div.banner .texts p{
+    display: none;
+}
+div.banner figure{
+    height: 300px;
+}
+
+
+div.ct3 section article{
+    width: calc(50% - 20px);
+}
+div.ct3 section article:nth-of-type(3),
+div.ct3 section article:nth-of-type(4){
+    margin-top: 20px;
+}
+div.ct3 section article .goto button{
+    padding-top: 70px;
+}
+
+
+div.ftrWrap{
+    padding: 60px 0;
+}
+div.ftrWrap footer{
+    margin-top: 20px;
+}
+div.ftrWrap footer ul{
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+}
+div.ftrWrap footer ul li:nth-of-type(3){
+    margin-top: 0;
+}
+div.ftrWrap footer p{
+    display: none;
+}

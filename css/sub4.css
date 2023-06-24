@@ -1,0 +1,107 @@
+/*sub4.css*/
+div.hdrWrap{
+    background-color: #000;
+    position: static;
+    transition: 0s;
+}
+div.hdrImg figure{
+    background-image: url(../img/sub4_00.jpg);
+    background-color: rgba(0,0,0,0.65);
+}
+
+.content.ct1{
+    padding: 0;
+    padding-top: 80px;
+}
+.content.ct1 header{
+    font-size: 16px;
+}
+.content.ct1 header ul{
+    display: flex;
+    justify-content: center;
+}
+.content.ct1 header ul li{
+    margin: 0 30px; color: #999;
+}
+.content.ct1 header ul li:nth-of-type(1){
+    color: #000;
+}
+.content.ct1 header ul li:hover{
+    color: #000;
+}
+.content.ct1 header .search{
+    display: flex; height: 50px;
+    margin: 0 10px;
+    margin-top: 20px;
+}
+.content.ct1 header .search select{
+    width: 16.6%; margin-right: 20px;
+}
+.content.ct1 header .search select option{}
+.content.ct1 header .search input{
+    width: 66.6%; border: 1px solid #000;
+    padding-left: 10px;
+    margin-right: 20 px;
+}
+.content.ct1 header .search button{
+    width: 16.6%; background-color: #000; text-decoration: none;
+    letter-spacing: normal;
+}
+.content.ct1 section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.content.ct1 section article{
+    width: calc(100% / 3 - 20px);
+    position: relative;
+    margin-top: 40px;
+}
+.content.ct1 section article:nth-of-type(1),
+.content.ct1 section article:nth-of-type(2),
+.content.ct1 section article:nth-of-type(3){
+    margin-top: 0;
+}
+.content.ct1 section article .image{
+    height: 400px; background-color: #ccc;
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-size 0.3s;
+}
+.content.ct1 section article .image:hover{
+    background-size: cover;
+}
+.content.ct1 section article .i1{background-image: url(../img/sub4_01.jpg);}
+.content.ct1 section article .i2{background-image: url(../img/sub4_02.jpg);}
+.content.ct1 section article .i3{background-image: url(../img/sub4_03.jpg);}
+.content.ct1 section article .i4{background-image: url(../img/sub4_04.jpg);}
+.content.ct1 section article .i5{background-image: url(../img/sub4_05.jpg);}
+.content.ct1 section article .i6{background-image: url(../img/sub4_06.jpg);}
+.content.ct1 section article .i7{background-image: url(../img/sub4_07.jpg);}
+.content.ct1 section article .i8{background-image: url(../img/sub4_08.jpg);}
+.content.ct1 section article .i9{background-image: url(../img/sub4_09.jpg);}
+.content.ct1 section article .texts{
+    width: 100%;
+    position: absolute;
+    bottom: 0; left: 0;
+    padding: 30px;
+    padding-top: 80px;
+    color: #fff;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%);
+}
+.content.ct1 section article .texts h4{
+    line-height: 20px; font-size: 18px; font-weight: 500;
+}
+.content.ct1 section article .texts p{
+    font-size: 12px;
+}
+.content.ct1 section article .texts h6{
+    margin-top: 10px; font-weight: 500;
+}
+
+
+div.ftrWrap{
+    margin-top: 200px;
+}

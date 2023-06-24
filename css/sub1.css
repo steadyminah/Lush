@@ -1,0 +1,424 @@
+/*sub1.css*/
+div.hdrWrap{
+    background-color: #000;
+    position: static;
+    transition: 0s;
+}
+div.hdrImg figure{
+    background-image: url(../img/sub1_01.jpg);
+}
+
+div.ct1{
+    padding: 0;
+}
+div.ct1 section{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0;
+}
+div.ct1 .image{
+    width: calc(41.6% - 20px);
+    height: 540px; background-color: #FFF; box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    margin-top: -40px;
+    background-image: url(../img/sub1_02.jpg);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+div.ct1 .image::after{
+    width: 25%; height: 20%;
+    display: block; content: '';
+    background-image: url(../img/best_seller.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+div.ct1 .info{
+    width: calc(58.4% - 20px);
+    height: 440px; background-color: #FFF; box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    margin-top: -40px;
+}
+div.ct1 .info .texts{
+    padding: 60px 80px;
+    position: relative;
+}
+div.ct1 .info .texts h3{
+    font-size: 36px; font-weight: 700; line-height: 40px;
+}
+div.ct1 .info .texts h4{
+    font-size: 18px; font-weight: 500; line-height: 40px;
+    color: #999;
+}
+div.ct1 .info .texts .star{
+    font-size: 14px; color: #000; font-weight: 300;
+    position: absolute; right: 80px; top: 80px;
+    line-height: 80px;
+}
+div.ct1 .info .texts h5{
+    line-height: 60px; font-weight: 500;
+}
+div.ct1 .info .texts h5 i{
+    color: #999;
+}
+div.ct1 .info .texts .price{
+    display: flex;
+}
+div.ct1 .info .texts .price ul{
+    font-size: 18px; line-height: 40px;
+}
+div.ct1 .info .texts .price .first{
+    width: 30%; font-weight: 500;
+}
+div.ct1 .info .texts .price .first li:nth-of-type(4){
+    line-height: 80px;
+}
+div.ct1 .info .texts .price .second{
+    width: 70%;
+}
+div.ct1 .info .texts .price .second input{
+    width: 40%; line-height: 30px; border: 1px solid #eee;
+    padding-left: 10px;
+}
+div.ct1 .info .texts .price .second .total{
+    font-size: 30px; font-weight: 700; line-height: 80px;
+}
+span{margin: 30px;}
+span:nth-of-type(1){margin-left: 0;}
+
+div.ct1 .info .texts ul li{}
+div.ct1 .info .icons{
+    background-color: #000; color: #fff;
+    padding: 40px 80px;
+    margin-top: -20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+div.ct1 .info .icons ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.ct1 .info .icons ul li{
+    font-size: 18px; font-weight: 500;
+}
+div.ct1 .info .icons ul li i{
+    margin-right: 5px;
+}
+
+div.youtube{
+    padding: 80px 0;
+    margin: 0 auto;
+}
+div.youtube iframe{
+    margin: 0 10px;
+    width: 98%;
+}
+
+div.ct2{
+    padding: 0;
+}
+div.ct2 header h3{
+    margin: 0 10px;
+}
+div.ct2 section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+div.ct2 section article{
+    width: calc(25% - 20px);
+    position: relative;
+    perspective: 1000px;
+}
+div.ct2 section:nth-of-type(1) article .image{
+    height: 280px; background-color: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    
+    z-index: 1;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+    transition: transform 0.4s ease-in-out;
+}
+div.ct2 section:nth-of-type(1) article .description{
+    background-color: #222; color: #fff;
+    padding: 30px;
+    position: absolute; top: 0; left: 0;
+    width: 100%; height: 100%;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+    transition: transform 0.4s ease-in-out;
+}
+
+div.ct2 section:nth-of-type(1) article:hover .image{
+    transform: rotateY(180deg);
+}
+div.ct2 section:nth-of-type(1) article:hover .description{
+    transform: rotateY(0deg);
+}
+
+div.ct2 section article .description h4{
+    font-weight: 500;
+}
+div.ct2 section article .description p{
+    height: 180px; overflow: hidden;
+}
+
+div.ct2 section article .i1{background-image: url(../img/sub1_03.jpg);}
+div.ct2 section article .i2{background-image: url(../img/sub1_04.jpg);}
+div.ct2 section article .i3{background-image: url(../img/sub1_05.jpg);}
+div.ct2 section article .i4{background-image: url(../img/sub1_06.jpg);}
+div.ct2 section article .image .texts{
+    padding: 30px;
+}
+div.ct2 section article .image .texts h3{
+    font-size: 24px;
+}
+div.ct2 section article .image .texts h4{
+    text-decoration: underline;
+}
+div.ct2 section .ingredient{
+    margin: 0 10px;
+    font-size: 16px;
+}
+div.ct2 section .ingredient h4{
+    line-height: 40px; font-weight: 500; margin-top: 40px;
+}
+div.ct2 .mark{}
+div.ct2 .mark article{
+    width: calc(100% / 3);
+    border-left: 1px solid #000;
+    display: flex; 
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+div.ct2 .mark article:nth-of-type(1){border-left: 0;}
+div.ct2 .mark article .image{
+    width: 25%;
+    border: 0; height: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+div.ct2 .mark article .i1{
+    background-image: url(../img/mark_01.jpg);
+}
+div.ct2 .mark article .i2{
+    background-image: url(../img/mark_02.jpg);
+}
+div.ct2 .mark article .i3{
+    background-image: url(../img/mark_03.jpg);
+}
+div.ct2 .mark article p{
+    width: 58%; height: 60px; margin-left: 15px;
+}
+
+div.banner{
+    width: 90%; max-width: 1200px; margin: 0 auto;
+    padding: 160px 0;
+    display: flex;
+    position: relative;
+}
+div.banner .texts{
+    width: 41.6%;
+    background-color: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    padding: 60px;
+    top: 300px;
+    position: absolute;
+    margin-left: 10px;
+}
+div.banner .texts h5{
+    font-size: 14px; text-transform: uppercase; letter-spacing: 2px;
+}
+div.banner .texts h3{
+    font-size: 30px; font-weight: 700; line-height: 40px;
+}
+div.banner .texts h4{
+    font-size: 18px; font-weight: 500; line-height: 60px;
+}
+div.banner .texts p{
+    text-align: justify;
+} 
+div.banner .texts .btn{
+    text-align: right;
+    margin-top: 40px;
+}
+div.banner .texts .btn button{
+    color: #000;
+}
+div.banner figure{
+    width: 75%;
+    height: 440px; background-color: #ccc;
+    background-image: url(../img/sub1_banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+div.ct3{
+    padding: 0;
+    padding-top: 80px;
+}
+div.ct3 header h3{
+    margin: 0 10px;
+}
+div.ct3 section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+div.ct3 section article{
+    width: calc(25% - 20px);
+    position: relative;
+    perspective: 1000px;
+}
+div.ct3 section article .image{
+    height: 280px; background-color: #fff; box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    
+    z-index: 1;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+    transition: transform 0.4s ease-in-out;
+}
+div.ct3 section article .goto{
+    background-color: #222; color: #fff; text-align: center;
+    padding: 30px;
+    position: absolute; top: 0; left: 0;
+    width: 100%; height: 100%;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+    transition: transform 0.4s ease-in-out;
+}
+div.ct3 section article .goto button{
+    text-align: center; letter-spacing: 1px;
+    padding-top: 100px;
+}
+
+div.ct3 section article:hover .image{
+    transform: rotateY(180deg);
+}
+div.ct3 section article:hover .goto{
+    transform: rotateY(0deg);
+}
+
+
+div.ct3 section article .i1{background-image: url(../img/sub1_07.jpg);}
+div.ct3 section article .i2{background-image: url(../img/sub1_08.jpg);}
+div.ct3 section article .i3{background-image: url(../img/sub1_09.jpg);}
+div.ct3 section article .i4{background-image: url(../img/sub1_10.jpg);}
+div.ct3 section article .image .texts{
+    padding: 30px;
+}
+div.ct3 section article .image .texts h5{
+    letter-spacing: 2px;
+}
+div.ct3 section article .image .texts h3{
+    font-size: 36px; font-family: 'parkway Lush'; letter-spacing: -2px;
+}
+
+div.comment{
+    padding: 0;
+    padding-top: 80px;
+}
+div.comment header h3{
+    margin: 0 10px;
+}
+div.comment section .comBox{
+    margin: 0 10px;
+}
+div.comment section .comBox .write{
+    height: 160px; width: 100%;
+    border: 1px solid #000;
+    padding: 20px;
+}
+div.comment section .comBox .star{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    border: 1px solid #000;
+    border-top: 0;
+    padding-left: 20px;
+}
+div.comment section .comBox .star h5{
+    color: #000; font-weight: 500;
+}
+div.comment section .comBox .star h5:nth-of-type(2),
+div.comment section .comBox .star h5:nth-of-type(3){
+    margin-left: 10px;
+}
+div.comment section .comBox .star h5 input{
+    width: 60%;
+    margin-left: 10px;
+    height: 30px; padding-left: 10px;
+    border: 0;
+}
+div.comment section .comBox .star .rating{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    line-height: 40px;
+    justify-content: flex-end;
+}
+div.comment section .comBox .star .rating input{
+    display: none;
+}
+div.comment section .comBox .star .rating input~label{
+    color: #ccc; margin: 0 2px;
+}
+div.comment section .comBox .star .rating input:hover~label{
+    color: #000;
+}
+div.comment section .comBox .star .rating input:checked~label{
+    color: #000;
+}
+div.comment section .comBox .star button{
+    width: 20%;
+    height: 40px;
+    background-color: #000;
+    text-decoration: none; font-size: 14px; letter-spacing: normal;
+}
+
+div.comment .user{
+    padding-top: 40px;
+}
+div.comment .artGroup{
+    margin: 0 10px;
+}
+div.comment .user article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #000;
+    padding: 30px 20px;
+}
+div.comment .user article:nth-of-type(4){
+    border-bottom: 1px solid #000;
+}
+div.comment .user article h5:nth-of-type(2){
+    color: #000;
+}
+div.comment .user article .texts{
+    width: 60%;
+}
+div.comment .user article .texts p{
+    line-height: 40px;
+}
+div.comment .user article .texts h6{
+    font-size: 12px;
+}
+div.comment .user article .texts h6:nth-of-type(1){
+    color: #999;
+}
+
+div.ftrWrap{
+    margin-top: 200px;
+}
